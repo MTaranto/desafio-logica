@@ -19,7 +19,7 @@ const rl = readline.createInterface({
     output: process.stdout
 });
 
-rl.question('Digite a pontuação do seu herói: ', (input) => {
+rl.question('Digite a quantidade de XP do seu herói: ', (input) => {
   heroPoints = parseFloat(input);
 
   if (heroPoints <= 1000) {
